@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10px 20px;
+}
+@media (min-width:375px) and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
+.logo{
+font-size: 20px;
+font-weight: bold;
+color: #36B636;
+}
+
+.hambuger{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.hambuger p{
+ padding: 1px 15px;
+ background: black;
+ border: 1px solid black;
+}
+.home{
+    background-image: url(./assets/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.intro{
+    margin: 40px 25px 0px 40px;
+}
+.intro h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #172b4d;
+    text-align: center;
+}
+.intro span{
+    color: #36B37f;
+}
+
+.home_paragraph{
+font-size: 25px;
+text-align: center;
+color: #344563;
+
+}
+
+.social_links ul{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 8px;
+    list-style: none;
+}
+.scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    
+}
+/*styling of project section*/
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;;
+}
+.project_title h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 55px;
+}
+.project_title p{
+    padding: 0 5px;
+    border: 1px solid  #36B37f;
+    color: #36B37f;
+    margin: 0 155px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: reapeat(1, fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    border: 1px solid #ebf0ee;
+    width: 325px;
+    max-width: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.card img{
+    padding: 110px 125px;
+    background-color: #ebf0ee;
+    border-radius: 5px;
+}
+.card title h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 25px;
+    color: black;
+}
+.card_list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 5px;
+    max-width: 325px;
+    width: 323px;
+
+}
+ .card_list ul li{
+    padding: 5px 9px;
+    background-color: #ebf0ee;
+    text-wrap: nowrap;
+    border-radius: 5px;
+   
+
+ }
+ .card_button{
+    margin: 20px 10px;
+ }
+ .card_button button{
+    padding: 10px 20px;
+    background-color: #36B37f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+ }   
+  
+    
+    
+
+    
+
+
+
+
